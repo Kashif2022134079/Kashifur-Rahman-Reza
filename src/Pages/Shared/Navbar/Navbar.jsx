@@ -14,27 +14,25 @@ const Navbar = () => {
 
   let [open, setOpen] = useState(false);
 
-  // this is for closing menu button by clicking outside 
   // ----------------------------------------------------------------------------------------------------------
-  const menuRef = useRef(null); // Reference for the menu container
-  const menuButtonRef = useRef(null); // Reference for the menu button (hamburger icon)
+  const menuRef = useRef(null); 
+  const menuButtonRef = useRef(null); 
 
-  // Close the menu when clicking outside
   useEffect(() => {
-    // Function to handle clicks outside the menu
+    
     const handleClickOutside = (event) => {
       if (
         menuRef.current && !menuRef.current.contains(event.target) &&
         menuButtonRef.current && !menuButtonRef.current.contains(event.target)
       ) {
-        setOpen(false); // Close the menu
+        setOpen(false); 
       }
     };
 
-    // Add the event listener for clicks
+    
     document.addEventListener("mousedown", handleClickOutside);
 
-    // Clean up the event listener
+    
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
