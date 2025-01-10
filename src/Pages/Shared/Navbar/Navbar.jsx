@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 
 const Navbar = () => {
   let links = [
@@ -40,13 +40,11 @@ const Navbar = () => {
 
   // ------------------------------------------------------------------------------------------------------------
   return (
-    <div className="w-full top-0 left-0 border-b">
-      <div className="md:flex bg-white items-center gap-x-16 py-6">
-        <Link to="/">
-          <div className="font-semibold md:ml-3 text-xl md:text-2xl cursor-pointer text-gray-600 items-center hover:text-gray-400 duration-500">
+    <div className="w-full top-0 left-0 border-b fixed z-10 ">
+      <div className="md:flex bg-white items-center gap-x-16 py-6 ">
+          <div className="font-semibold md:ml-3 ml-3 text-xl md:text-2xl cursor-pointer text-gray-600 items-center hover:text-gray-400 duration-500">
             Kashifur Rahman Reza
           </div>
-        </Link>
         <div
         ref={menuButtonRef}
           onClick={() => setOpen(!open)}
@@ -66,7 +64,7 @@ const Navbar = () => {
                 <NavLink
                   to={link.link}
                   className={({ isActive }) => 
-                    isActive ? " underline" : "text-gray-800 hover:text-green-400"
+                    isActive ? " underline" : "text-gray-800 hover:text-green-400 duration-300"
                   } // Dynamic class based on active status
                 >
                   {link.name}
