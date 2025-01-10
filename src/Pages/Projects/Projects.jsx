@@ -27,8 +27,10 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-span-1 border">
-                Hello
+            <div className="col-span-1">
+                <img 
+                className="w-full h-auto object-cover text-center"
+                src="https://i.ibb.co.com/LZ8HQkT/Whats-App-Image-2025-01-10-at-11-43-30-PM-1.jpg" alt="" />
             </div>
         </div>
     );
