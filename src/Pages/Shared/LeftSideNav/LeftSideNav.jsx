@@ -1,11 +1,10 @@
 import { FaGithub, FaLinkedin, FaUniversity } from 'react-icons/fa';
-import img from '../../../assets/k.jpg'
 import { GiNotebook } from 'react-icons/gi';
 const LeftSideNav = () => {
     return (
         <div className='mb-3 md:mb-1'>
             <div className='md:p-4 flex md:block gap-4 md:gap-0 items-center'>
-                <img className='rounded-full h-14 w-14 md:h-48 md:w-48 aspect-square  border-2 md:border-4 object-cover' src={img} alt="" />
+                <img className='rounded-full h-14 w-14 md:h-48 md:w-48 aspect-square  border-2 md:border-4 object-cover' src="https://i.ibb.co.com/CJ3y420/k.jpg" alt="" />
                 <div className=''>
                     <h2 className='text-sm font-medium md:text-xl md:font-medium my-1 '>Kashifur Rahman Reza</h2>
                     <p className=''>Full Stack Developer</p>

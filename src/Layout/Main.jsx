@@ -7,7 +7,7 @@ const Main = () => {
             <div>
             <Navbar></Navbar>
             </div>
-            <div className="md:flex gap-5 md:mt-4 md:py-20 p-4">
+            <div className="md:flex gap-5 md:mt-4 md:py-20 mt-[100px]">
                 <div className="md:w-1/4">
                 <LeftSideNav></LeftSideNav>
                 </div>

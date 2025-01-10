@@ -56,7 +56,7 @@ const Navbar = () => {
         </div>
         <div ref={menuRef}>
           <ul className={`md:flex md:items-center md:pb-0 pb-8 absolute md:static md:z-auto z-50 shadow-md md:shadow-none right-5 w-[220px] md:w-auto 
-          md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20' : 'top-[-500px] '} opacity-100 bg-white border md:border-0
+          md:pl-0 pl-9 transition-all duration-700 ease-in-out ${open ? 'top-20' : 'top-[-500px] '} opacity-100 bg-white border md:border-0
           shadow-stone-600`}>
             {
               links.map((link) => (
@@ -64,7 +64,7 @@ const Navbar = () => {
                 <NavLink
                   to={link.link}
                   className={({ isActive }) => 
-                    isActive ? " underline" : "text-gray-800 hover:text-green-400 duration-300"
+                    isActive ? " underline" : "text-gray-800 hover:text-gray-400 duration-500"
                   } // Dynamic class based on active status
                 >
                   {link.name}

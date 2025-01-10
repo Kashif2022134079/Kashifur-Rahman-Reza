@@ -8,7 +8,7 @@ const Home = () => {
                 I have a strong passion for full stack web development, with skills in <span className="font-medium">
                 HTML, CSS, JavaScript, React.js, Node.js, Express.js,</span> and <span className="font-medium">MongoDB</span>. My journey into web development began with a keen interest in how websites are built, which has now blossomed into a comprehensive skill set. 
                 <br /> <br />
-                In addition to my technical skills, I am an entrepreneur at heart. I co-founded an online clothing business with four friends, where I played a key role in building and maintaining the website. This experience has provided me with valuable insights into e-commerce, project management, and team collaboration.
+                Recently, I developed a full-stack e-commerce website for a friends clothing business, Asrar Fashion, enhancing their online presence and streamlining the shopping experience for customers. This project allowed me to apply my skills in web development, e-commerce, and project management.
                 You can check my <a className="text-blue-600" href="https://www.linkedin.com/in/kashif79/">LinkedIn profile</a> for details regarding my past professional experiences.
                 <br /> <br />
                 Beyond work, I lead a rather uneventful life: I cook food, learning recipes from my mom to stave off the impending doom of hunger, enjoy the thrill of cricket matches, and attempt to stroke my fragile ego by mastering the ball on the field.
