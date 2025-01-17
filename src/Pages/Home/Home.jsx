@@ -3,7 +3,7 @@ const Home = () => {
     return (
         <div>
             <h2 className="text-2xl font-bold mb-3 text-gray-600">About Me</h2>
-            <p className="md:text-lg text-base text-gray-600">
+            <p className="md:text-lg text-base text-gray-600 mb-3">
                 Hello! My name is Kashifur Rahman Reza, currently pursuing my undergraduate degree in Statistics at Shahjalal University of Science and Technology.
                 I have a strong passion for full stack web development, with skills in <span className="font-medium">
                 HTML, CSS, JavaScript, React.js, Node.js, Express.js,</span> and <span className="font-medium">MongoDB</span>. My journey into web development began with a keen interest in how websites are built, which has now blossomed into a comprehensive skill set. 
