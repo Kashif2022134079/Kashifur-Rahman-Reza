@@ -24,7 +24,7 @@ const LeftSideNav = () => {
                     <li><a href="https://github.com/Kashif2022134079" className='hover:underline mb-2 flex gap-1 items-center'>
                         <FaGithub />
                         Github</a></li>
-                    <li><a href="/resume.pdf"
+                    <li><a href="https://docs.google.com/document/d/1_PNT6ZgRlj07oFk555sx4nz03VTisYeJNTO60bC7U3k/edit?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer" className='hover:underline mb-2 flex gap-1 items-center'>
                         <GiNotebook />

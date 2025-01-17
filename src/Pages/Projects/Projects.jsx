@@ -27,7 +27,8 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="my-4">
-                    <a href="">Site Link</a>
+                    <div className="divider"></div>
+                    <button className="btn btn-outline"><a href="https://burqa-shop.web.app/">Site Link</a></button>
                 </div>
             </div>
             <div className="col-span-1">
