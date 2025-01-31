@@ -14,7 +14,7 @@ const Home = () => {
                 Beyond work, I lead a rather uneventful life: I cook food, learning recipes from my mom to stave off the impending doom of hunger, enjoy the thrill of cricket matches, and attempt to stroke my fragile ego by mastering the ball on the field.
                 <br />
                 <br />I am currently seeking an entry-level web developer position where I can apply my skills and passion for technology, and I am excited about the opportunity to contribute to a dynamic team. Feel free to reach out to me at 
-                +8801877273449 or check out my <a href="/public/Kashifur Rahman Reza- Resume (1).pdf" className="text-blue-600">Resume</a>.
+                +8801877273449 or check out my <a href="https://docs.google.com/document/d/1_PNT6ZgRlj07oFk555sx4nz03VTisYeJNTO60bC7U3k/edit?usp=sharing" className="text-blue-600">Resume</a>.
 
             </p>
         </div>

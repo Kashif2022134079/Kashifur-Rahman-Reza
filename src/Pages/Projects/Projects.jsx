@@ -7,7 +7,7 @@ const Projects = () => {
                     <h2 className="text-2xl font-medium">Asrar Fashion</h2>
                     <p>An online full-stack e-commerce platform for a burqa-selling business.</p>
                 </div>
-                <div>
+                <div className="">
                     <p>
                         Asrar Fashion allows customers to browse burqas, view detailed product information, add items to their cart, and place orders. The website features a responsive design, secure user authentication, and an admin panel for managing products and orders.
                     </p>
