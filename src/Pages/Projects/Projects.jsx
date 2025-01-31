@@ -39,7 +39,7 @@ const Projects = () => {
 
 
             <div className="col-span-3 md:col-span-1 order-1 md:order-2">
-                <div className="relative h-[300px] md:h-full w-full">
+                <div className="relative h-full w-full">
                     <img
                         src="https://i.ibb.co.com/LZ8HQkT/Whats-App-Image-2025-01-10-at-11-43-30-PM-1.jpg"
                         alt="Asrar Fashion website screenshot"
