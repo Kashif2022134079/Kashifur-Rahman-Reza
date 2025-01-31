@@ -31,10 +31,21 @@ const Projects = () => {
                     <button className="btn btn-outline"><a href="https://burqa-shop.web.app/">Site Link</a></button>
                 </div>
             </div>
-            <div className="col-span-1">
+            {/* <div className="col-span-1">
                 <img
                     className="w-full h-auto object-cover text-center"
                     src="https://i.ibb.co.com/LZ8HQkT/Whats-App-Image-2025-01-10-at-11-43-30-PM-1.jpg" alt="" />
+            </div> */}
+
+
+            <div className="col-span-3 md:col-span-1 order-1 md:order-2">
+                <div className="relative h-[300px] md:h-full w-full">
+                    <img
+                        src="https://i.ibb.co.com/LZ8HQkT/Whats-App-Image-2025-01-10-at-11-43-30-PM-1.jpg"
+                        alt="Asrar Fashion website screenshot"
+                        className="w-full h-full object-cover rounded-t-lg md:rounded-t-none md:rounded-r-lg"
+                    />
+                </div>
             </div>
 
         </div>
